@@ -1,0 +1,17 @@
+python-telegram-bot==21.7
+pillow==11.0.0
+httpx==0.27.2
+```
+
+## 📁 Complete File Structure:
+
+Your project folder should look like this:
+```
+telegram-channel-bot/
+├── bot.py                  ← Your main bot code (rename testbot.py to bot.py)
+├── Dockerfile              ← Created above
+├── docker-compose.yml      ← Created above
+├── requirements.txt        ← THIS FILE (3 lines above)
+├── .gitignore             ← Created above
+├── .dockerignore          ← Created above
+└── README.md              ← Created above
