@@ -3,17 +3,5 @@ pymongo==4.6.1
 Pillow==10.2.0
 pytz==2024.1
 httpx==0.26.0
-```
-
-## 📁 Complete File Structure:
-
-Your project folder should look like this:
-```
-telegram-channel-bot/
-├── bot.py                  ← Your main bot code (rename testbot.py to bot.py)
-├── Dockerfile              ← Created above
-├── docker-compose.yml      ← Created above
-├── requirements.txt        ← THIS FILE (3 lines above)
-├── .gitignore             ← Created above
-├── .dockerignore          ← Created above
-└── README.md              ← Created above
+aiogram==2.25.1
+requests==2.31.0
